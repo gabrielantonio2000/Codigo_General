@@ -17,5 +17,6 @@ console.log( {d})
 console.table({a,b,c,d})
 
 
+c='HOla de nuevo';
 
 const SALUDO= c+d;
