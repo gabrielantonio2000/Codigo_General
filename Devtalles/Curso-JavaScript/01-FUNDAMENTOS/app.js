@@ -3,7 +3,7 @@
 
 let a= 10;
 let b=20;
-let c='hola';
+let c='hola ';
 let d='Lampard';
 let x = a+b;
 
@@ -15,3 +15,7 @@ console.log( {d})
 
 
 console.table({a,b,c,d})
+
+
+
+const SALUDO= c+d;
