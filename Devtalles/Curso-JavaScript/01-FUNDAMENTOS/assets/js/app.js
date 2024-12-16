@@ -1,6 +1,8 @@
 // console.log('HOla mundo');
 
 
+alert('hola desde app.js');
+
 let a= 10;
 let b=20;
 let c='hola ';
