@@ -26,3 +26,7 @@ const SALUDO= c+d;
 
 
 var Minombre= 'Gabriel';
+
+
+var outerWidth=1000000;
+var outerHeight= 600;
