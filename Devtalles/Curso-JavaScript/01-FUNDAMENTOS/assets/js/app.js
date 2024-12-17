@@ -1,9 +1,12 @@
 // console.log('HOla mundo');
 
 
-
-
 alert('hola desde app.js');
+
+console.log(minuevonombre);
+console.log(minuevonombre2);
+
+
 let a= 10;
 let b=20;
 let c='hola ';
@@ -30,3 +33,9 @@ var Minombre= 'Gabriel';
 
 var outerWidth=1000000;
 var outerHeight= 600;
+
+
+
+var minuevonombre= 'Antonio';
+
+let minuevonombre2= 'GAbriel'
