@@ -24,12 +24,12 @@ let arregloCosas= [
     { a: 1},
 
 
-    [ 'X', 'Naruto', 'Sasuke', 'Luffy' ]
+    [ 'X', 'Naruto', 'Sasuke', 'Luffy', ['SANJI' ]]
 ];
 
 //console.log(arregloCosas);
 console.log(arregloCosas [0]);
 console.log(arregloCosas[2]);
-console.log(arregloCosas [7][3]);
+console.log(arregloCosas [7][4][0] );
 
 
