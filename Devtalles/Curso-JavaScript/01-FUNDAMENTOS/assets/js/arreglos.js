@@ -18,9 +18,18 @@ let arregloCosas= [
     true,
     123,
     'gabriel',
-    1+2
+    1+2,
+    function (){},
+    ()=>{},
+    { a: 1},
+
+
+    [ 'X', 'Naruto', 'Sasuke', 'Luffy' ]
 ];
 
-console.log(arregloCosas);
+//console.log(arregloCosas);
+console.log(arregloCosas [0]);
+console.log(arregloCosas[2]);
+console.log(arregloCosas [7][3]);
 
 
