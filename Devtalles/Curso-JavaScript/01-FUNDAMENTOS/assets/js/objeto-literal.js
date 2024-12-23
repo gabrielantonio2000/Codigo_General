@@ -25,3 +25,10 @@ console.log('Edad', personaje.edad);
 console.log('Coors', personaje.coords.lat);
 
 console.log('No.trajes', personaje.trajes.length);
+console.log('Ultimo traje', personaje.trajes[ personaje.trajes.length -1]);
+
+
+const x = 'vivo';
+console.log('Vivo', personaje[x]);
+
+
