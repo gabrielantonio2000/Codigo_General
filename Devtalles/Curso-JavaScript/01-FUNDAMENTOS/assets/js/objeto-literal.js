@@ -32,3 +32,34 @@ const x = 'vivo';
 console.log('Vivo', personaje[x]);
 
 
+
+
+//más detalles
+
+
+delete personaje.edad;
+
+console.log(personaje);
+
+personaje.casado= true;
+
+const entriesPares = Object.entries(personaje);
+console.log(entriesPares);
+
+
+
+
+Object.freeze( personaje);
+
+personaje.dinero=100000000;
+
+console.log(personaje);
+
+
+
+personaje.casado=false;
+console.log(personaje);
+
+
+const propiedades= Object.getOwnPropertyNames(personaje);
+console.log({propiedades});
