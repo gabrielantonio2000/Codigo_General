@@ -45,8 +45,23 @@ console.log( sumar2(2,4));
 //la función de flecha se puede resumir más de esta forma cuando solo hay una linea
 
 const sumar3 = (a,b) => a+b;
-
 console.log( sumar3(10,10));
 
 
+function getAleatorio(){
+    return Math.random();
+}
+
+console.log(getAleatorio ());
+
+
+//ejercicio: simplificar la función anterior
+
+const getAleatorio2 =  () => {
+    return Math.random();
+}  
+
+
+
+console.log(getAleatorio2 ());
 
