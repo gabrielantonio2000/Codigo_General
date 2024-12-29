@@ -60,8 +60,9 @@ console.log(getAleatorio ());
 const getAleatorio2 =  () => {
     return Math.random();
 }  
-
-
-
 console.log(getAleatorio2 ());
 
+//hacer el ejercicio sin usar llaves
+
+const getAleatorio3= () => Math.random ();
+console.log(getAleatorio3 ())
