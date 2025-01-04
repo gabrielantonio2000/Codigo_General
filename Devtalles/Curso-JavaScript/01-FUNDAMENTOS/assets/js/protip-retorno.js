@@ -20,3 +20,15 @@ const persona = crearPersona ( 'gabriel ', 'antonio');
 console.log( persona);
 
 
+
+
+function imprimeArgumentos (){
+    console.log( arguments);
+}
+
+const imprimeArgumentos2 = (...args ) => {
+    console.log ({edad,args})
+}
+
+
+imprimeArgumentos2( 10, true, false, 'GAbriel');
