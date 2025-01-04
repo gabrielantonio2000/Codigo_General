@@ -48,9 +48,8 @@ const otrasFrutas2 = [...frutas];
 console.timeEnd('spread');
 
 
-//a nivel de rendimiento los 2 funcionan igual depende en que parte del código esten
-//ya que si esta arriba el spread es más rápido pero si coloco el slice arriba de spread entonces es más rápido
-//entonces es lo mismo pero al gusto puedo usar ya sea spread o slice
+//a nivel de rendimiento spread es mejor ya que copia la referencia 
+// mientras que el slice crea una copia del arreglo por lo que al ser un código más extenso ahí se vería bastante la diferencia
 // el time y timeEnd sirve para ver el tiempo que se tarda
 
 otrasFrutas.push('Mango');
