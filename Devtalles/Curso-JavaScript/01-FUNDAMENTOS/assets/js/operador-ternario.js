@@ -2,9 +2,9 @@
 // pero los dias de la semana abrimos a las 9
 // Entra a  un sitio webkitURL, para consultar si está abierto hoy 
 
-const dia= 0;   //0: domingo... 1:lunes....
+const dia= 1;   //0: domingo... 1:lunes....
 
-const horaActual=10;
+const horaActual=11;
 
 let horaApertura; 
 let mensaje; //ESta abierto, esta cerrado, hoy abrimos a las x
@@ -20,4 +20,18 @@ if (dia===0 || dia===6){
     horaApertura= 11;
 }    
 
-console.log({horaApertura})
+
+if(horaActual>= horaApertura){
+    mensaje= 'Está abierto'
+}else{ 
+    mensaje= `Está cerrado, hoy abrimos a las ${horaApertura}`  ;
+
+}
+
+
+
+
+
+
+
+console.log({horaApertura,mensaje})
